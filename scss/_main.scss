@@ -71,12 +71,14 @@ li:nth-of-type(6) {
     main {
         margin: 4rem;
     }
+
     .masthead {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 1rem;
     }
+
     .info {
         width: 439px;
         height: 87px;
@@ -91,9 +93,11 @@ li:nth-of-type(6) {
         column-gap: 2rem;
         padding: 0;
     }
+
     li:nth-of-type(5) {
         margin-top: 8rem;
     }
+
     .team_name a {
         font-size: 18px;
     }
