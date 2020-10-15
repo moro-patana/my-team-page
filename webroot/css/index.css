@@ -1,12 +1,12 @@
-body {
-  margin: 0;
-  padding: 1rem; }
-
 @font-face {
   font-style: normal;
   font-family: "Poppins";
   font-weight: 400;
   src: local("Poppins Regular"), local("Poppins Regular"), url("../webroot/fonts/Poppins-Regular.woff2") format("woff2"), url("../webroot/fonts/Poppins-Regular.woff") format("woff"); }
+
+body {
+  margin: 0;
+  padding: 1rem; }
 
 img {
   width: 100%; }
