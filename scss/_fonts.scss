@@ -7,4 +7,11 @@
          url("../webroot/fonts/Poppins-Regular.woff2") format('woff2'),
          url("../webroot/fonts/Poppins-Regular.woff") format('woff');
   }
-  
+  @font-face {
+    font-style: normal;
+    font-family:"Montserrat";
+    src: local("Montserrat"),
+         local("Montserrat"),
+         url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+  } 
