@@ -17,6 +17,7 @@ img {
   width: 100%; }
 
 h2 {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -63,7 +64,7 @@ li:nth-of-type(6) {
 .profession {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-family: PT Serif;
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
