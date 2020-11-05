@@ -4,6 +4,9 @@
   "description": "![screenshot](screenshot.png)",
   "main": "index.js",
   "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+ 
     "build": "npm-run-all build:css build:html",
     "build:css": "node-sass src/site/_includes/css/main.scss > src/site/css/main.css",
     "build:html": "eleventy",
